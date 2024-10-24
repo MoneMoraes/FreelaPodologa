@@ -2,7 +2,6 @@ import minhaImagem from "./assets/foto-principal.png";
 import avaliation from "./assets/check.png";
 import whatsapp from "./assets/wpp.png";
 import maps from "./assets/maps.png";
-import wpp from "./assets/wpp-2.png";
 import imagemFundo from "./assets/imagem-fundo.jpeg";
 
 function App() {
@@ -63,10 +62,7 @@ function App() {
           <p className="text-white text-xs md:text-sm drop-shadow">
             &copy;2024 podologagraziellecastro. Todos os direitos reservados.
           </p>
-          <a className="flex items-center text-white font-bold text-sm md:text-base" href="https://api.whatsapp.com/send?phone=5532991561723">
-            Desenvolvido por RAMON MORAES
-            <img className="w-5 ml-2 rounded" src={wpp} alt="whatsapp-ramon" />
-          </a>
+          
         </footer>
       </main>
     </div>
